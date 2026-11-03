@@ -1,0 +1,28 @@
+{
+  "name": "kissmypost",
+  "displayName": "KissMyPost",
+  "version": "1.0.0",
+  "description": "Reddit audience research: subreddit size and growth, best time to post, similar subreddits, topics, Reddit-wide statistics and brand mentions, from KissMyPost data.",
+  "author": {
+    "name": "KissMyPost",
+    "url": "https://kissmypost.com"
+  },
+  "homepage": "https://kissmypost.com/mcp",
+  "repository": "https://github.com/krutytskyi/kissmypost-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "reddit",
+    "subreddits",
+    "audience research",
+    "reddit analytics",
+    "reddit marketing",
+    "best time to post",
+    "brand mentions",
+    "community research"
+  ],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://kissmypost.com/mcp",
+  "supportUrl": "https://kissmypost.com/contact",
+  "privacyPolicyUrl": "https://kissmypost.com/privacy",
+  "termsOfServiceUrl": "https://kissmypost.com/terms"
+}

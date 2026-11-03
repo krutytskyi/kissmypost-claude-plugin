@@ -1,0 +1,17 @@
+{
+  "name": "kissmypost",
+  "owner": {
+    "name": "KissMyPost",
+    "url": "https://kissmypost.com"
+  },
+  "metadata": {
+    "description": "KissMyPost plugin for Claude: Reddit audience research."
+  },
+  "plugins": [
+    {
+      "name": "kissmypost",
+      "source": "./",
+      "description": "Reddit audience research with KissMyPost data."
+    }
+  ]
+}

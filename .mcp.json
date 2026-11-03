@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kissmypost": {
+      "type": "http",
+      "url": "https://kissmypost.com/api/mcp"
+    }
+  }
+}
