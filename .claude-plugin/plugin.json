@@ -1,8 +1,8 @@
 {
   "name": "kissmypost",
   "displayName": "KissMyPost",
-  "version": "1.0.0",
-  "description": "Reddit audience research: subreddit size and growth, best time to post, similar subreddits, topics, Reddit-wide statistics and brand mentions, from KissMyPost data.",
+  "version": "1.0.1",
+  "description": "Reddit analytics and audience research for Claude: a subreddit finder, subreddit size and growth, the best time to post on Reddit, similar subreddits, posting rules, Reddit statistics and Reddit brand mentions.",
   "author": {
     "name": "KissMyPost",
     "url": "https://kissmypost.com"
@@ -12,12 +12,14 @@
   "license": "MIT",
   "keywords": [
     "reddit",
-    "subreddits",
-    "audience research",
     "reddit analytics",
+    "subreddit finder",
+    "reddit audience research",
     "reddit marketing",
-    "best time to post",
-    "brand mentions",
+    "best time to post on reddit",
+    "reddit brand mentions",
+    "subreddit analytics",
+    "reddit statistics",
     "community research"
   ],
   "icon": "./assets/logo.svg",

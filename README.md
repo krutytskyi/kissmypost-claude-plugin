@@ -1,6 +1,6 @@
 # KissMyPost for Claude
 
-KissMyPost answers questions about Reddit audiences with real numbers instead of guesses. Ask Claude which subreddits fit a product or topic, how big a community is and how fast it grows, when its members are active, which communities share the same people, what Reddit talks about around a topic, or how often a brand or phrase comes up month by month. Every answer links to the full report on kissmypost.com.
+KissMyPost is a Reddit analytics and audience research tool, and this plugin brings it into Claude. Use it as a subreddit finder for a product or topic, to size up a community (members, growth, activity), to plan Reddit marketing with the best time to post and each subreddit's posting rules, to see which communities share the same people, and to track Reddit brand mentions month by month. Claude answers with real numbers instead of guesses, and every answer links to the full report on kissmypost.com.
 
 ## Install
 

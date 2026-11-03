@@ -1,6 +1,6 @@
 ---
 name: reddit-audience-research
-description: Research a Reddit audience with KissMyPost data. Use when the user asks which subreddits fit a product or topic, how big or active a subreddit is, when to post there, which communities share its audience, what Reddit talks about around a topic, or how often a brand or phrase is mentioned on Reddit.
+description: Reddit analytics and audience research with KissMyPost data. Use when the user needs a subreddit finder or Reddit marketing help, such as which subreddits fit a product or topic, how big or active a subreddit is, when to post there, which communities share its audience, what Reddit talks about around a topic, or how often a brand or phrase is mentioned on Reddit.
 ---
 
 # Reddit audience research with KissMyPost

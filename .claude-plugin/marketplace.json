@@ -5,13 +5,13 @@
     "url": "https://kissmypost.com"
   },
   "metadata": {
-    "description": "KissMyPost plugin for Claude: Reddit audience research."
+    "description": "KissMyPost plugin for Claude: Reddit analytics and audience research."
   },
   "plugins": [
     {
       "name": "kissmypost",
       "source": "./",
-      "description": "Reddit audience research with KissMyPost data."
+      "description": "Reddit analytics and audience research with KissMyPost data: subreddit finder, best time to post, Reddit brand mentions."
     }
   ]
 }
