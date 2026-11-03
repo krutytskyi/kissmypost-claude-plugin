@@ -1,8 +1,8 @@
 {
   "name": "kissmypost",
   "displayName": "KissMyPost",
-  "version": "1.0.2",
-  "description": "Reddit audience data in Cursor: find subreddits for a topic, subreddit size and growth, the best time to post, similar subreddits, posting rules, Reddit statistics and brand mentions. 13 read-only tools.",
+  "version": "1.1.0",
+  "description": "Reddit audience data in Cursor: find subreddits for a topic, subreddit size and growth, the best time to post, similar subreddits, posting rules, Reddit statistics and brand mentions. Read-only tools.",
   "author": {
     "name": "KissMyPost",
     "email": "hi@kissmypost.com"

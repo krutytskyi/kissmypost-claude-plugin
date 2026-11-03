@@ -13,7 +13,25 @@ From the Claude directory, add **KissMyPost** in claude.ai, Claude Desktop, Cowo
 ## What is inside
 
 - **MCP server** `kissmypost` at `https://kissmypost.com/api/mcp` (remote, read-only tools). Nothing runs on your machine.
-- **Skill** `reddit-audience-research`: tells Claude which KissMyPost tool to call for each kind of question and how to present the numbers.
+- **Five skills** that tell Claude which KissMyPost tool to call for each kind of question and how to present the numbers:
+
+| Skill | Use it for |
+|---|---|
+| `reddit-audience-research` | Subreddit size, growth, demographics, shared audiences, comparisons, Reddit-wide statistics |
+| `find-subreddits` | Which subreddits to post in for a product, niche, topic or draft |
+| `reddit-best-time-to-post` | Best day and hour to post in a subreddit, in your time zone |
+| `reddit-brand-mentions` | How often Reddit names or links to a brand or competitor, by month and subreddit |
+| `reddit-marketing-plan` | A Reddit launch or promotion plan built on posting rules, removal rates, timing and threads to reply to |
+
+## Skills without the plugin
+
+The skills are plain `SKILL.md` files (instructions only, no scripts) and also work on their own, next to the KissMyPost connector:
+
+- **claude.ai and Claude Desktop:** zip a skill folder (for example `find-subreddits/` with its `SKILL.md` inside), then Customize > Skills > + > Create skill > Upload a skill.
+- **Claude Code:** copy a folder from `skills/` to `~/.claude/skills/`.
+- **Other agents:** `npx skills add krutytskyi/kissmypost-claude-plugin`.
+
+Without the connector the skills cannot fetch numbers; they ask you to connect KissMyPost at https://kissmypost.com/mcp.
 
 ## Sign-in
 
@@ -27,7 +45,7 @@ claude mcp add --transport http kissmypost https://kissmypost.com/api/mcp --head
 
 ## Cursor
 
-Install **KissMyPost** from the Cursor Marketplace, then open Settings → Tools & MCP and click **Connect** next to KissMyPost to sign in (a free account works). The Cursor files are `.cursor-plugin/plugin.json`, `mcp.json` (OAuth with a public client, no secret) and `rules/kissmypost.mdc`; the skill is shared with Claude.
+Install **KissMyPost** from the Cursor Marketplace, then open Settings → Tools & MCP and click **Connect** next to KissMyPost to sign in (a free account works). The Cursor files are `.cursor-plugin/plugin.json`, `mcp.json` (OAuth with a public client, no secret) and `rules/kissmypost.mdc`; the skills are shared with Claude.
 
 Prefer an API key? Use **Add to Cursor** at https://kissmypost.com/mcp instead.
 
