@@ -1,29 +1,41 @@
 {
   "name": "kissmypost",
-  "displayName": "KissMyPost",
-  "version": "1.1.0",
-  "description": "Reddit audience data in Cursor: find subreddits for a topic, subreddit size and growth, the best time to post, similar subreddits, posting rules, Reddit statistics and brand mentions. Read-only tools.",
+  "displayName": "KissMyPost: Reddit Audience Research",
+  "version": "1.1.1",
+  "description": "Reddit analytics and audience research for AI assistants: find subreddits for a topic, see who is in them, the best time to post, posting rules and Reddit brand mentions. KissMyPost works as a subreddit finder and Reddit marketing tool: subreddit growth and audience stats, similar subreddits, trending topics, Reddit post and mention search, and threads worth a reply. 17 read-only tools. Sign in with a free account at kissmypost.com/mcp. Not affiliated with Reddit, Inc.",
   "author": {
     "name": "KissMyPost",
     "email": "hi@kissmypost.com"
   },
   "publisher": "KissMyPost",
-  "homepage": "https://kissmypost.com/mcp",
+  "homepage": "https://kissmypost.com/mcp?utm_source=cursor&utm_medium=directory",
   "repository": "https://github.com/krutytskyi/kissmypost-claude-plugin",
   "license": "MIT",
   "logo": "assets/logo.png",
   "category": "integrations",
   "keywords": [
     "reddit",
-    "reddit analytics",
+    "subreddit",
     "subreddit finder",
     "audience research",
     "reddit marketing",
-    "best time to post",
+    "reddit analytics",
+    "social listening",
     "brand mentions",
+    "best time to post",
+    "social media",
+    "marketing",
+    "research",
     "mcp"
   ],
-  "tags": ["reddit", "analytics", "marketing", "mcp"],
+  "tags": [
+    "reddit",
+    "social-media",
+    "marketing",
+    "research-and-data",
+    "analytics",
+    "mcp"
+  ],
   "skills": "./skills/",
   "rules": "./rules/",
   "mcpServers": "./mcp.json"

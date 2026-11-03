@@ -45,11 +45,15 @@ claude mcp add --transport http kissmypost https://kissmypost.com/api/mcp --head
 
 ## Cursor
 
-Install **KissMyPost** from the Cursor Marketplace, then open Settings → Tools & MCP and click **Connect** next to KissMyPost to sign in (a free account works). The Cursor files are `.cursor-plugin/plugin.json`, `mcp.json` (OAuth with a public client, no secret) and `rules/kissmypost.mdc`; the skills are shared with Claude.
+Install **KissMyPost: Reddit Audience Research** from the Cursor Marketplace, then open Settings → Tools & MCP and click **Connect** next to KissMyPost to sign in (a free account works). The Cursor files are `.cursor-plugin/plugin.json`, `mcp.json` (OAuth with a public client, no secret) and `rules/kissmypost.mdc`; the skills are shared with Claude.
 
-Prefer an API key? Use **Add to Cursor** at https://kissmypost.com/mcp instead.
+Prefer an API key? Use **Add to Cursor** at https://kissmypost.com/mcp?utm_source=cursor&utm_medium=directory instead.
 
-Try: "How big is r/SaaS and is it growing?", "When should I post in r/startups?", "Where on Reddit do people talk about notion.so?"
+Try:
+- "Which subreddits should I post my SaaS launch in?"
+- "When is the best time to post in r/startups?"
+- "Who is the audience of r/homelab and what else do they read?"
+- "Where is my brand mentioned on Reddit this month?"
 
 ## What it sends and where
 
