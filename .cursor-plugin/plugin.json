@@ -1,0 +1,30 @@
+{
+  "name": "kissmypost",
+  "displayName": "KissMyPost",
+  "version": "1.0.2",
+  "description": "Reddit audience data in Cursor: find subreddits for a topic, subreddit size and growth, the best time to post, similar subreddits, posting rules, Reddit statistics and brand mentions. 13 read-only tools.",
+  "author": {
+    "name": "KissMyPost",
+    "email": "hi@kissmypost.com"
+  },
+  "publisher": "KissMyPost",
+  "homepage": "https://kissmypost.com/mcp",
+  "repository": "https://github.com/krutytskyi/kissmypost-claude-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "integrations",
+  "keywords": [
+    "reddit",
+    "reddit analytics",
+    "subreddit finder",
+    "audience research",
+    "reddit marketing",
+    "best time to post",
+    "brand mentions",
+    "mcp"
+  ],
+  "tags": ["reddit", "analytics", "marketing", "mcp"],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}

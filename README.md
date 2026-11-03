@@ -1,4 +1,4 @@
-# KissMyPost for Claude
+# KissMyPost for Claude and Cursor
 
 KissMyPost is a Reddit analytics and audience research tool, and this plugin brings it into Claude. Use it as a subreddit finder for a product or topic, to size up a community (members, growth, activity), to plan Reddit marketing with the best time to post and each subreddit's posting rules, to see which communities share the same people, and to track Reddit brand mentions month by month. Claude answers with real numbers instead of guesses, and every answer links to the full report on kissmypost.com.
 
@@ -24,6 +24,14 @@ Prefer an API key in Claude Code? Create one at https://kissmypost.com/mcp and a
 ```bash
 claude mcp add --transport http kissmypost https://kissmypost.com/api/mcp --header "Authorization: Bearer YOUR_KEY"
 ```
+
+## Cursor
+
+Install **KissMyPost** from the Cursor Marketplace, then open Settings → Tools & MCP and click **Connect** next to KissMyPost to sign in (a free account works). The Cursor files are `.cursor-plugin/plugin.json`, `mcp.json` (OAuth with a public client, no secret) and `rules/kissmypost.mdc`; the skill is shared with Claude.
+
+Prefer an API key? Use **Add to Cursor** at https://kissmypost.com/mcp instead.
+
+Try: "How big is r/SaaS and is it growing?", "When should I post in r/startups?", "Where on Reddit do people talk about notion.so?"
 
 ## What it sends and where
 

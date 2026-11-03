@@ -1,0 +1,10 @@
+---
+description: Use KissMyPost tools for any Reddit numbers (subreddit size, growth, timing, mentions). Apply when the user asks about subreddits, Reddit audiences or Reddit marketing.
+alwaysApply: false
+---
+
+- For Reddit numbers, call the KissMyPost MCP tools. Do not guess subscriber counts, growth, posting times or mention counts from memory.
+- Quote the period each number refers to and keep the report link the tool returns.
+- The tools are read-only. They do not post, vote or message anyone on Reddit; do not offer those actions.
+- Never suggest posting the same message to many subreddits. Point the user to each community's rules first (`subreddit_posting_rules` when available).
+- If a tool says it is unavailable for the account or a daily limit is reached, say so plainly and continue with the other tools.

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kissmypost": {
+      "url": "https://kissmypost.com/api/mcp",
+      "auth": {
+        "CLIENT_ID": "rgSqyVsUfTuFuLXQ",
+        "scopes": ["openid", "profile", "email", "offline_access"]
+      }
+    }
+  }
+}
