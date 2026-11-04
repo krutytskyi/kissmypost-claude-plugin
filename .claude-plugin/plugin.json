@@ -1,7 +1,7 @@
 {
   "name": "kissmypost",
-  "displayName": "KissMyPost",
-  "version": "1.1.1",
+  "displayName": "KissMyPost: Reddit Audience Research",
+  "version": "1.1.2",
   "description": "Reddit analytics and audience research for Claude: a subreddit finder, subreddit size and growth, the best time to post on Reddit, similar subreddits, posting rules, Reddit statistics and Reddit brand mentions.",
   "author": {
     "name": "KissMyPost",
