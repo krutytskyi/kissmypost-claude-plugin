@@ -10,7 +10,7 @@ Use KissMyPost counts, never estimates from memory. If no KissMyPost tools are a
 ## Pick the right measure
 
 - **Links to a website** (for example "notion.so"): `brand_mentions` with the domain. It counts posts and comments that link to the site.
-- **A name written in text** (a product, a person, a phrase such as "Cursor IDE"): `search_reddit_mentions`. It returns monthly post and comment counts for the last 24 months and the top subreddits. It needs a signed-in KissMyPost account.
+- **A name written in text** (a product, a person, a phrase such as "Cursor IDE"): `search_reddit_mentions`. It returns monthly post and comment counts and the top subreddits. `match: "exact"` (default) counts the words as one phrase, `match: "all"` counts posts and comments with all the words anywhere; `period` is "12m", "24m" (default), "3y", "10y" or "all"; `subreddit` limits the count to one community. Quotes are not needed. It needs a signed-in KissMyPost account.
 - These are different questions: a brand can be named often but rarely linked. When the user says "mentions" without detail, use both and explain the difference in one line.
 
 ## Steps
