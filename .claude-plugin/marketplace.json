@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "kissmypost",
-      "source": "./",
+      "source": "./claude",
       "description": "Reddit analytics and audience research with KissMyPost data: subreddit finder, best time to post, Reddit brand mentions."
     }
   ]

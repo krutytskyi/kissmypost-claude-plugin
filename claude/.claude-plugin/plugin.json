@@ -1,7 +1,7 @@
 {
   "name": "kissmypost",
   "displayName": "KissMyPost: Reddit Audience Research",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Reddit analytics and audience research for Claude: a subreddit finder, subreddit size and growth, the best time to post on Reddit, similar subreddits, posting rules, Reddit statistics and Reddit brand mentions.",
   "author": {
     "name": "KissMyPost",
@@ -22,7 +22,7 @@
     "reddit statistics",
     "community research"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "documentationUrl": "https://kissmypost.com/mcp",
   "supportUrl": "https://kissmypost.com/contact",
   "privacyPolicyUrl": "https://kissmypost.com/privacy",

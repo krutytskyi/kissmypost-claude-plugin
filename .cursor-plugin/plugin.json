@@ -36,7 +36,7 @@
     "analytics",
     "mcp"
   ],
-  "skills": "./skills/",
+  "skills": "./claude/skills/",
   "rules": "./rules/",
   "mcpServers": "./mcp.json"
 }
