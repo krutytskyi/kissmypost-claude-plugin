@@ -1,8 +1,8 @@
 {
   "name": "kissmypost",
   "displayName": "KissMyPost: Reddit Audience Research",
-  "version": "1.2.0",
-  "description": "Reddit analytics and audience research for Claude: a subreddit finder, subreddit size and growth, the best time to post on Reddit, similar subreddits, posting rules, Reddit statistics and Reddit brand mentions.",
+  "version": "1.2.1",
+  "description": "Reddit analytics and audience research for Claude, with KissMyPost data. Find the subreddits where a topic is discussed and see each one's size, 12-month growth and audience (age, gender, shared interests), the best day and hour to post, similar communities and posting rules. Track how often Reddit mentions or links to a brand, product or website. Five skills: subreddit finder, audience research, best time to post, brand mentions and a Reddit marketing plan. Read-only.",
   "author": {
     "name": "KissMyPost",
     "url": "https://kissmypost.com"
